@@ -1,0 +1,4 @@
+<resources>
+    <!-- List Item dimensions -->
+    <dimen name="padding_item">16dp</dimen>
+</resources>

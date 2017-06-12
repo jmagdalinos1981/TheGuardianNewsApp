@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">The Guardian</string>
+    <string name="main_screen_title">News feed</string>
+
+    <!-- Placeholders for list_item.xml -->
+    <string name="title_placeholder">Long placeholder text for title. This should wrap to more
+        than 2 lines</string>
+    <string name="section_placeholder">Section placeholder</string>
+    <string name="date_placeholder">01/01/2017</string>
+    <string name="time_placeholder">08:30</string>
+
+    <!-- Placeholders for activity_main.xml -->
+    <string name="message_placeholder">Message for user</string>
+
+    <!-- Messages for user -->
+    <string name="message_no_internet">No internet connection</string>
+    <string name="message_no_articles">No articles found</string>
+    <string name="message_fetching">Fetching articles... Please wait</string>
+    <string name="message_refreshing">Refreshing articles... Please wait</string>
+
+    <!-- Menu Items -->
+    <string name="menu_refresh">Refresh</string>
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Settings Activity Title -->
+    <string name="settings_title">News Feed Settings</string>
+
+    <!-- Search Query for EditTextPreferences -->
+    <string name="settings_search_query_label">Search for: </string>
+    <string name="settings_search_query_key" translatable="false">q</string>
+    <string name="settings_search_query_default" translatable="false">London</string>
+
+    <!-- Search Query for ListPreferences -->
+    <string name="settings_order_by_list_label">Order by:</string>
+    <string name="settings_order_by_list_key">order-by</string>
+    <string name="settings_order_by_list_default">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for Order-by relevance option -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!-- Label for Order-by newest option -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for Order-by oldest option -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+</resources>
